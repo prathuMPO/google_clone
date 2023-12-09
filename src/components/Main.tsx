@@ -45,6 +45,7 @@ const Main: React.FC = () => {
     const file = e.target.files[0];
     if (!file) return;
 
+    
     const response = await new Promise((resolve, reject) => {
       const reader = new FileReader();
 
